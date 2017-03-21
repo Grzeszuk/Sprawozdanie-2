@@ -40,8 +40,8 @@ void RenderScene(void)
 	for (angle = 0.0f; angle <= (2.0f*3.1415f)*3.0f; angle += 0.1f)
 	{
 		// Wyliczenie wartoœci x i y na kole
-		x = 50.0f*sin(angle);
-		z = 50.0f*cos(angle);
+		z = 50.0f*sin(angle);
+		x = 50.0f*cos(angle);
 		// Zdefiniowanie rozmiaru punktu przed utworzeniem obiektu podstawowego
 		glPointSize(curSize);
 		// Rysowanie punktu
